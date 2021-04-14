@@ -97,7 +97,11 @@ h3 { font-size: var(--fs-h3) }
     width: 20%; /* Will shrink image to 30% of its original width */
     height: auto;    
 }​
-
+  
+.intro img {
+    width: 20%; /* Will shrink image to 30% of its original width */
+    height: auto;    
+}​
 
 /* header */
 
