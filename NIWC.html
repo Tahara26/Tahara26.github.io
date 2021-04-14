@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Justin's Personal Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/justin.png" alt="" class="logo__img">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Hobbies</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Naval Information Warfare Center <strong>Pacific</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">San Diego</p>
+            <img src="img/NIWC.png" alt="NIWC logo" class="intro__img rounded-corners">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>Worked as a Data Analyst Intern in the Summer of 2019. The Naval Base was located in Old Town, San Diego and is a 14 minute drive from the UCSD Campus.</p>
+            <img src="img/NIWC_Base.jpeg" alt="">
+            <p>This was my first internship as a Computer Science Major and worked at the base on internal dashboarding tools built in Jira.</p>
+            <p>Security Clearance and badges were necessary when working on this base at all times. My security clearance level was Secret.</p>
+        </div>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:justintahara@gmail.com" class="footer__link">justintahara@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/justintahara/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/Tahara26">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.instagram.com/justintahara/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.facebook.com/justin.tahara">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
