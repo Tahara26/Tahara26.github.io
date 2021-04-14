@@ -337,7 +337,7 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-    width: 20%; /* Will shrink image to 30% of its original width */
+    width: 50%; /* Will shrink image to 30% of its original width */
     height: auto; 
 }
 
