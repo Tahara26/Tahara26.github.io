@@ -246,6 +246,7 @@ header {
     box-shadow: var(--bs);
     width: 20%; /* Will shrink image to 30% of its original width */
     height: auto; 
+    border-radius: 5px;
 }
 
 .section__subtitle--intro {
@@ -339,6 +340,7 @@ header {
     box-shadow: var(--bs);
     width: 100%; /* Will shrink image to 30% of its original width */
     height: auto; 
+    border-radius: 5px;
 }
 
 @media (min-width: 600px) {
