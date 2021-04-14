@@ -143,6 +143,11 @@ header {
     max-width: 100px;
 }
 
+.logo__img {
+    width: 60%; /* Will shrink image to 30% of its original width */
+    height: auto; 
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
