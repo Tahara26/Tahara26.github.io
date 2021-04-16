@@ -489,12 +489,12 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: black;
+    color: white;
   }
   
   /* mouse over link */
   a:hover {
-    color: darkolivegreen;
+    color: var(--clr-dark);
   }
   
   /* selected link */
