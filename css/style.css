@@ -481,3 +481,23 @@ header {
     height: auto; 
     border-radius: 5px;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkolivegreen;
+  }
+  
+  /* selected link */
+  a:active {
+    color: var(--clr-dark);
+  }
