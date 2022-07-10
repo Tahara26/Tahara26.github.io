@@ -388,6 +388,7 @@ header {
     text-align: center;    
 }
 
+/* USE A FLEXBOX TO FIX THE WRAPPING ISSUE */
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
